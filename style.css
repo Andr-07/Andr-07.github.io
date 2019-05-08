@@ -1,0 +1,182 @@
+ion-icon {
+  font-size: 24px;
+  margin:0;
+}  
+
+.footer {
+  background: #061D25;
+  padding: 10px 0;
+}
+.footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+.footer a:hover {
+  color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #337ab7;
+}
+
+.nav-link {
+  font-size:18px;
+}
+  
+  #SkillBox {
+  font-size: 20px;  
+  font-family: 'Indie Flower', cursive;
+  width: 95%;
+  height: auto;
+  margin: 40px auto;
+  background-color: #fff;
+  border: 1px solid #cdcdcd;
+  padding: 10px;
+  border-radius:20px;
+  -o-border-radius:20px;
+  -webkit-border-radius:20px;
+  -ms-border-radius:20px;
+  -moz-border-radius:20px;  
+}  
+#SkillBox img {
+  width: 20%;
+  height: 10%;
+  margin: auto 35%;
+  padding: 10px;
+}  
+.SkillBar {
+  width: 90%;
+  height: 50px;
+  position: relative;
+  background: rgba(17, 17, 17, .3);
+  margin: 20px auto;
+}  
+#Skill-HTML {
+  width: 90%;
+  animation: Animate-HTML 4s;
+  -webkit-animation: Animate-HTML 4s;
+  -moz-animation: Animate-HTML 4s;
+  -o-animation: Animate-HTML 4s;
+  height: 50px;
+  position: absolute;
+  background-color: #ea8564;
+}  
+@keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }  
+  to {
+    width: 90%}
+        }#Skill-CSS {
+          animation: Animate-CSS 5s;
+          -webkit-animation: Animate-CSS 5s;
+          -moz-animation: Animate-CSS 5s;
+          -o-animation: Animate-CSS 5s;
+          width: 80%;
+          height: 50px;
+          position: absolute;
+          background-color: #55a69f;
+        }  
+        @keyframes Animate-CSS {
+          from {
+            width: 10px;
+          }  
+          to {
+  width: 80%}          
+
+  
+}#Skill-JS {
+  animation: Animate-JS 4s;
+  -webkit-animation: Animate-JS 4s;
+  -moz-animation: Animate-JS 4s;
+  -o-animation: Animate-JS 4s;
+  width: 50%;
+  height: 50px;
+  position: absolute;
+  background-color: #c44e45;
+}  
+@keyframes Animate-JS {
+  from {
+    width: 10px;
+  }  
+  to {
+    width: 50%}
+          
+        }#Skill-C {
+          animation: Animate-C 4s;
+          -webkit-animation: Animate-C 4s;
+          -moz-animation: Animate-C 4s;
+          -o-animation: Animate-C 4s;
+          width: 30%;
+          height: 50px;
+          position: absolute;
+          background-color: #970cc1;
+        }  
+        @keyframes Animate-C {
+          from {
+            width: 10px;
+          }  
+          to {
+            width: 30%}
+                  
+                }#Skill-PHP {
+                  animation: Animate-PHP 4s;
+                  -webkit-animation: Animate-PHP 4s;
+                  -moz-animation: Animate-PHP 4s;
+  -o-animation: Animate-PHP 4s;                
+  width: 50%;
+  height: 50px;
+  position: absolute;
+  background-color: #5A69A6;
+}  
+@keyframes Animate-PHP {
+  from {
+    width: 10px;
+  }  
+  to {
+    width: 50%}
+      
+    }.Skill-Area {
+      z-index: 1;
+      float: left;
+      position: absolute;
+      margin-top: 15px;
+      margin-left: 15px;
+      text-shadow: none;
+      color: #fff;
+      font-family: Lato-Regular, sans-serif;
+      font-size: 18px;
+    }  
+
+    @media (min-width: 800px){
+    .PercentText {
+      z-index: 3;
+      position: relative;
+      padding-right: 15px;
+      margin-top: 15px;
+      float: right;
+      text-shadow: none;
+      color: #fff;
+      font-family: Lato-Regular, sans-serif;
+      font-size: 18px;
+      }  }
+    
+    /* .onepart{
+      background-color: #c5c5c5
+    } */  
+    
+
+    @media only screen and (max-width: 800px) {
+      .PercentText {
+        font-size: 10px;
+        color: #fff;
+        font-family: Lato-Regular, sans-serif;
+      }
+    }
