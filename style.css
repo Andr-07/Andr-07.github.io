@@ -165,7 +165,7 @@ animation: Animate-PHP 4s;
       width: 70%;
       height: 50px;
       position: absolute;
-      background-color: #092d63;
+      background-color: #092d65;
     }  
     @keyframes Animate-Git {
       from {
@@ -184,7 +184,7 @@ animation: Animate-PHP 4s;
               width: 65%;
               height: 50px;
               position: absolute;
-              background-color: #0f5382;
+              background-color: #0f5381;
             }  
             @keyframes Animate-Mongo {
               from {
