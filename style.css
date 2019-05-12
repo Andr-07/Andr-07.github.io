@@ -126,10 +126,11 @@ ion-icon {
           to {
             width: 30%}
                   
-                }#Skill-PHP {
-                  animation: Animate-PHP 4s;
-                  -webkit-animation: Animate-PHP 4s;
-                  -moz-animation: Animate-PHP 4s;
+                }
+#Skill-PHP {
+animation: Animate-PHP 4s;
+-webkit-animation: Animate-PHP 4s;
+ -moz-animation: Animate-PHP 4s;
   -o-animation: Animate-PHP 4s;                
   width: 50%;
   height: 50px;
@@ -153,7 +154,46 @@ ion-icon {
       color: #fff;
       font-family: Lato-Regular, sans-serif;
       font-size: 18px;
+    }
+
+
+    #Skill-Git {
+      animation: Animate-Git 4s;
+      -webkit-animation: Animate-Git 4s;
+      -moz-animation: Animate-Git 4s;
+      -o-animation: Animate-Git 4s;
+      width: 70%;
+      height: 50px;
+      position: absolute;
+      background-color: #092d63;
     }  
+    @keyframes Animate-Git {
+      from {
+        width: 10px;
+      }  
+      to {
+        width: 70%}
+              
+            }
+
+            #Skill-Mongo {
+              animation: Animate-Mongo 4s;
+              -webkit-animation: Animate-Mongo 5s;
+              -moz-animation: Animate-Mongo 5s;
+              -o-animation: Animate-Mongo 4s;
+              width: 65%;
+              height: 50px;
+              position: absolute;
+              background-color: #0f5381;
+            }  
+            @keyframes Animate-Mongo {
+              from {
+                width: 10px;
+              }  
+              to {
+                width: 65%}
+                      
+                    }
 
     @media (min-width: 800px){
     .PercentText {
@@ -180,3 +220,4 @@ ion-icon {
         font-family: Lato-Regular, sans-serif;
       }
     }
+
