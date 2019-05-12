@@ -219,6 +219,16 @@ animation: Animate-PHP 4s;
       background-color: #c5c5c5
     } */  
     
+    @keyframes myanimation {
+      0% {transform:rotateY(0deg);}
+      100% {transform:rotateY(180deg);}
+  }
+  
+  .face {
+      animation:myanimation 1s infinite alternate linear;
+      float:left;
+      font:40px Verdana;
+  }
 
     @media only screen and (max-width: 800px) {
       .PercentText {
@@ -227,7 +237,7 @@ animation: Animate-PHP 4s;
         font-family: Lato-Regular, sans-serif;
       }
 
-      .myName {
+      .myName, h3 {
         font-size:20px;
         text-align: center;
       }
