@@ -3,6 +3,13 @@ ion-icon {
   margin:0;
 }  
 
+.myName {
+font-weight: bolder; 
+line-height: 150%;
+font-size: 35px; 
+text-shadow: #020900 1px 2px 2px;
+}
+
 .footer {
   background: #061D25;
   padding: 10px 0;
@@ -219,5 +226,14 @@ animation: Animate-PHP 4s;
         color: #fff;
         font-family: Lato-Regular, sans-serif;
       }
+
+      .myName {
+        font-size:20px;
+        text-align: center;
+      }
+      .row {
+        justify-content: center;
+      }
+
     }
 
